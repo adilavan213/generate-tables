@@ -46,5 +46,5 @@ df = pd.DataFrame(rows, columns=columns)
 print(df.head(13))
 
 # שמירה כ־CSV
-df.to_csv(r"C:\Users\use\Desktop\hrp9500_fake_data2.xlsx", index=False, sep='\t')
+df.to_csv(r"C:\Users\use\Desktop\hrp9500_fake_data2.csv", index=False, sep='\t')
 
